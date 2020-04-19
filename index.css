@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px) {
+   h2 {
+       font-size: 20px;
+       margin-top: 40;
+       color: white;
+       line-height: 1.5;
+   }
+
+   footer {
+    font-size: 20px;
+    margin-top: 60;
+    text-align: center;
+    color: white;
+}
+}
+
+@media only screen and (min-width: 602px) {
+    #brand-name {
+        font-size: 30px;
+        text-decoration: none;
+        padding-left: 15;
+    }
+
+    h2 {
+        color: white;
+        margin-top: 130;
+    }
+
+    footer {
+        font-size: 20px;
+        margin-top: 200;
+        text-align: center;
+    }
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brand-name {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-fluid {
+    background-image: url(monster.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+h6 {
+    color: white;
+}
+
+#main-form {
+    display: flex;
+    justify-content: center;
+}
+
+.area {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 60px;
+}
+
+.form-control {
+    max-width: 500px;
+}
+
